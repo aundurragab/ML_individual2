@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the SVM model
-svm_model = pickle.load(open('trained_wine_SVMclassification_model.sav', 'rb'))
+svm_model = pickle.load(open('trained_wine_SVMclassification_model01.sav', 'rb'))
 
 # Function to classify wine quality using SVM model
 def classify_quality(features):
